@@ -13,7 +13,7 @@ public class WarriorClass : BaseHerosClass {
         HPmax = 50;
         Mana = 20;
         ManaMax = 20;
-        Damage = 11;
+        Damage = 12;
         CritChance = 22;
         Speed = 5;
         HitChance = 60;
@@ -28,7 +28,6 @@ public class WarriorClass : BaseHerosClass {
         Evilness = 0;
         Xp = 0;
         XpMax = 100;
-        Sickness = "";
         Relation = "";
         Psycho = "";
         Equipement[0] = "UNE GROSSE BITE";

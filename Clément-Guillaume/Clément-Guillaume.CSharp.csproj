@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AA854603-6E80-2434-26DF-D0168EB3CA15}</ProjectGuid>
+    <ProjectGuid>{1EEAE339-F619-D38D-A871-913EE1E05019}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.4f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -60,6 +58,12 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -71,10 +75,6 @@
     <Compile Include="Assets\Script\Characters Class\HerosClass\WarriorClass.cs" />
     <Compile Include="Assets\Script\CreateCharacters\CreateHerosOnGUI.cs" />
     <Compile Include="Assets\Script\CreateCharacters\DisplayInformation.cs" />
-    <Compile Include="Assets\Script\EffectClass\BasePsycho.cs" />
-    <Compile Include="Assets\Script\EffectClass\BaseSickness.cs" />
-    <Compile Include="Assets\Script\EffectClass\Psycho\Madness.cs" />
-    <Compile Include="Assets\Script\EffectClass\Sicknesses\Lepre.cs" />
     <Compile Include="Assets\Script\Items\BaseEquiment.cs" />
     <Compile Include="Assets\Script\Items\BaseItem.cs" />
     <Compile Include="Assets\Script\Items\BasePotion.cs" />
@@ -92,6 +92,5 @@
     <Compile Include="Assets\Script\Items\Enum\TrinketTypes.cs" />
     <Compile Include="Assets\Script\Items\Enum\WeaponTypes.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

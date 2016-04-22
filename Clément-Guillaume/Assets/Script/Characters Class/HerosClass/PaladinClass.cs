@@ -29,7 +29,6 @@ public class PaladinClass : BaseHerosClass
         Evilness = 0;
         Xp = 0;
         XpMax = 100;
-        Sickness = "";
         Relation = "";
         Psycho = "";
         Equipement[0] = "UNE GROSSE BITE";

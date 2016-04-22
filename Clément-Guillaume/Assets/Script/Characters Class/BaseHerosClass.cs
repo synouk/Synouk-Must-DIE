@@ -6,7 +6,7 @@ using System.Text;
 public abstract class BaseHerosClass : BaseCaracterClass
 {
     int _evilness;
-    string _sickness;
+    List<BaseSickness> _sickness = new List<BaseSickness>();
     string _psycho;
     string _relation;
     string[] _equipement = new string[4];
@@ -26,7 +26,7 @@ public abstract class BaseHerosClass : BaseCaracterClass
         }
     }
 
-    public string Sickness
+    public List<BaseSickness> Sickness
     {
         get
         {
