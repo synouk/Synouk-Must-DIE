@@ -72,6 +72,10 @@
     <Compile Include="Assets\Script\CreateCharacters\DisplayInformation.cs" />
     <Compile Include="Assets\Script\CreateCharacters\InfoCharactersStates.cs" />
     <Compile Include="Assets\Script\CreateCharacters\InformationCharacter.cs" />
+    <Compile Include="Assets\Script\HerosEffects\BasePsycho.cs" />
+    <Compile Include="Assets\Script\HerosEffects\BaseSickness.cs" />
+    <Compile Include="Assets\Script\HerosEffects\Psycho\Madness.cs" />
+    <Compile Include="Assets\Script\HerosEffects\Sicknesses\Lepre.cs" />
     <Compile Include="Assets\Script\Items\BaseEquiment.cs" />
     <Compile Include="Assets\Script\Items\BaseItem.cs" />
     <Compile Include="Assets\Script\Items\BasePotion.cs" />
@@ -89,5 +93,6 @@
     <Compile Include="Assets\Script\Items\Enum\TrinketTypes.cs" />
     <Compile Include="Assets\Script\Items\Enum\WeaponTypes.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
