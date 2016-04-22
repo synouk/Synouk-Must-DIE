@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BaseCaracterClass {
 
-    //Info Character
+    // Info Character
     string _characterClassName;
     string _characterName;
     // Character stats
