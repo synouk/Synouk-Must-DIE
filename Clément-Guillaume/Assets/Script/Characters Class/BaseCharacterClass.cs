@@ -6,6 +6,7 @@ public class BaseCaracterClass {
     // Info Character
     string _characterClassName;
     string _characterName;
+    string _characterIcon;
     // Character stats
     int _lvl;
 
@@ -277,6 +278,19 @@ public class BaseCaracterClass {
         set
         {
             _speed = value;
+        }
+    }
+
+    public string CharacterIcon
+    {
+        get
+        {
+            return _characterIcon;
+        }
+
+        set
+        {
+            _characterIcon = value;
         }
     }
 }

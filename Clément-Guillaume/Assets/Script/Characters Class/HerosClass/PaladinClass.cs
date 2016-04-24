@@ -8,6 +8,7 @@ public class PaladinClass : BaseHerosClass
     public PaladinClass()
     {
         CharacterName = "George";
+        CharacterIcon = "Paladin";
         CharacterClassName = "Paladin";
         Lvl = 0;
         HP = 40;

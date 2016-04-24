@@ -8,6 +8,7 @@ public class WarriorClass : BaseHerosClass {
     {
         CharacterName = "George";
         CharacterClassName = "Warrior";
+        CharacterIcon = "Warrior";
         Lvl = 0;
         HP = 50;
         HPmax = 50;

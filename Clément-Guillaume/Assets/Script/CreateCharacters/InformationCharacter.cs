@@ -3,46 +3,21 @@ using System.Collections;
 
 public class InformationCharacter : MonoBehaviour {
 
-    private InfoCharactersStates _currentStates;
-    private DisplayInformation _displayInformation = new DisplayInformation();
+    private DisplayInformation _displayInformation;
     private BaseHerosClass _hero;
 
     void Start()
     {
-        _currentStates = InfoCharactersStates.InfoCharacter;
         CreateHeros();
-
+        _displayInformation = new DisplayInformation(_hero);
     }
     void Update()
     {
-        switch (_currentStates)
-        {
-            case InfoCharactersStates.InfoCharacter:
-                break;
-            case InfoCharactersStates.StatsCharacter:
-                break;
-            case InfoCharactersStates.Image:
-                break;
-            default:
-                break;
-        }
+
     }
     void OnGUI()
     {
-        if (_currentStates == InfoCharactersStates.InfoCharacter)
-        {
-            _displayInformation.DisplayNameInformation(_hero);
-            _displayInformation.DisplayStatsInformation(_hero);
-            _displayInformation.DisplayImageInformation(_hero);
-        }
-        else if (_currentStates == InfoCharactersStates.StatsCharacter)
-        {
-            _displayInformation.DisplayStatsInformation(_hero);
-        }
-        else if (_currentStates == InfoCharactersStates.Image)
-        {
-            //_displayInformation.DisplayImageInformation();
-        }
+        _displayInformation.RefreshGUI();
     }
     void CreateHeros()
     {
